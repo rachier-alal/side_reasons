@@ -1,0 +1,43 @@
+#:kivy 2.1.0
+BoxLayout:
+    orientation:"horizontal"
+    TabbedPanel:
+        # Add a tab with a Label widget as the content
+
+        TabbedPanelItem:
+            text: 'Transaction Volumes'
+            tab_width: 700
+            spacing:20
+            Label:
+                text: 'Content for tab 1'
+        # Add a second tab with a different Label widget as the content
+        TabbedPanelItem:
+            text: '90 day Journey'
+            tab_width: 700
+            spacing:20
+
+            Label:
+                text: 'Content for tab 2'
+
+        TabbedPanelItem:
+            text: 'DSRs'
+            tab_width: 700
+            spacing:20
+            Label:
+                text: 'Content for tab 2'
+
+# BoxLayout:
+#     orientation:"vertical"
+    
+#     Button:
+#         text:"tableau"
+
+#     Button:
+#         text:"Sheets"
+        
+#     Button:
+#         text:"Excel"
+
+
+#     Label:
+#         text: 'Hello World'
